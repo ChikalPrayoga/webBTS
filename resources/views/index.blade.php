@@ -95,17 +95,17 @@
         <h2>Armada Kami</h2>
         <div class="grid">
           <div class="card">
-            <img src="{{ asset('images/truck1.webp') }}" alt="Truk Engkel" loading="lazy">
+            <img src="{{ asset('images/truck1.webp') }}" alt="Truk Engkel" loading="lazy" decoding="async" width="600" height="400">
             <h3>Truk Engkel</h3>
             <p>Cocok untuk pengiriman lokal dan antar kota dengan kapasitas sedang.</p>
           </div>
           <div class="card">
-            <img src="{{ asset('images/truck2.webp') }}" alt="Truk Fuso" loading="lazy">
+            <img src="{{ asset('images/truck2.webp') }}" alt="Truk Fuso" loading="lazy" decoding="async" width="600" height="400">
             <h3>Truk Fuso</h3>
             <p>Kapasitas besar, ideal untuk muatan berat dan pengiriman jarak jauh.</p>
           </div>
           <div class="card">
-            <img src="{{ asset('images/container.webp') }}" alt="Kontainer" loading="lazy">
+            <img src="{{ asset('images/container.webp') }}" alt="Kontainer" loading="lazy" decoding="async" width="600" height="400">
             <h3>Kontainer (20ft)</h3>
             <p>Solusi pengiriman aman dan tertutup untuk barang dalam jumlah besar.</p>
           </div>
@@ -116,9 +116,9 @@
       <section id="gallery" class="section card">
         <h2>Galeri Armada</h2>
         <div class="gallery">
-          <img src="{{ asset('images/truck1.webp') }}" alt="Truk Engkel" loading="lazy">
-          <img src="{{ asset('images/truck2.webp') }}" alt="Truk Fuso" loading="lazy">
-          <img src="{{ asset('images/container.webp') }}" alt="Kontainer" loading="lazy">
+          <img src="{{ asset('images/truck1.webp') }}" alt="Truk Engkel" loading="lazy" decoding="async" width="600" height="400">
+          <img src="{{ asset('images/truck2.webp') }}" alt="Truk Fuso" loading="lazy" decoding="async" width="600" height="400">
+          <img src="{{ asset('images/container.webp') }}" alt="Kontainer" loading="lazy" decoding="async" width="600" height="400">
         </div>
       </section>
 
